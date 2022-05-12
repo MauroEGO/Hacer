@@ -1,0 +1,80 @@
+@media (max-width: 375px) {
+    section {
+      flex-direction: column;
+    }
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+section{
+    display: flex;
+    width: 1000px;
+    position: center;
+    float: left;
+    width: 60%; 
+    border-radius: 30px;
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    color:white; 
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color:white;
+    margin-bottom: 80px;
+}
+
+.card1 button{
+    color: hsl(31, 77%, 52%);
+    padding: 1em 2.5em;
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    border-radius: 45px;
+}
+
+.card2 button{
+    color:hsl(184, 100%, 22%);
+    padding: 1em 2.5em;
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    border-radius: 45px;
+}
+
+.card3 button{
+    color:hsl(179, 100%, 13%);
+    padding: 1em 2.5em;
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    border-radius: 45px;
+}
+
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 5%;
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 5%;
+}
+
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    padding: 5%;
+}
